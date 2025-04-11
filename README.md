@@ -52,6 +52,7 @@ This application generates a newsletter based on a user-provided topic using AI.
 Newsletter/
 ├── app.py                # Main application file
 ├── services/             # Contains helper modules for web scraping, searching, and AI agents
+├── config/               # Loads .env and checks if OPENAI_API_KEY is set and correctly formatted.
 ├── README.md             # Documentation for the app
 ├── requirements.txt      # List of dependencies
 ```
@@ -59,7 +60,7 @@ Newsletter/
 ## Notes
 
 - Ensure you have an active internet connection to fetch news sources and generate newsletters.
-- The app uses OpenAI's GPT model for summarization. Make sure to set up your API key in the environment variables.
+- The app uses OpenAI's GPT model. Make sure to set up your API key in the environment variables.
 
 ## License
 
