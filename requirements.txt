@@ -1,0 +1,6 @@
+gradio
+beautifulsoup4
+requests
+openai
+dotenv
+duckduckgo_search
